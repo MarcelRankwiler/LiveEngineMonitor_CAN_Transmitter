@@ -63,7 +63,7 @@ void loop() {
   delay(timeDelay);
   
   //Analogwert geglättet in potiSmooth und ungeglättet in potiSpeicherWert speichern
-  readAnalog()();
+  readAnalog();
 
   //Analogwert ungeglättet über serielle Schnittstelle ausgeben
   Serial.print("Poti Speicherwert: ");
